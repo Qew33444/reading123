@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="8.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Industrial Revolution Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .question h3 {
+            margin-bottom: 10px;
+        }
+        .question ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .question li {
+            margin: 5px 0;
+        }
+        .correct-answer {
+            color: green;
+            display: none;
+        }
+        .wrong-answer {
+            color: red;
+            display: none;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e8f8f5;
+            border: 1px solid #1abc9c;
+            color: #1abc9c;
+            display: none;
+        }
+        .correct-answers {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            color: #333;
+            display: none;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #1abc9c;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Industrial Revolution</h1>
+    <p>The Industrial Revolution, which began in the late 18th century in Britain, fundamentally transformed the way societies functioned. It marked a shift from agrarian economies, where the majority of people worked on farms, to industrialized ones, where machines took over production in factories. The invention of the steam engine played a crucial role in this transformation, allowing for more efficient transportation and manufacturing processes.</p>
+    <p>As the revolution spread to other parts of Europe, the United States, and beyond, it brought profound changes to economies, societies, and cultures. On one hand, it led to unprecedented economic growth and technological advancement. The production of goods became faster and cheaper, and cities expanded as people flocked to urban centers in search of factory jobs. The development of railways and steamships also facilitated global trade, connecting distant countries in ways that were previously unimaginable.</p>
+    <p>However, the Industrial Revolution also had significant negative consequences. The rapid urbanization led to overcrowded cities, poor living conditions, and increased pollution. Factory workers often faced dangerous working environments and long hours, with little pay. The revolution also intensified class divisions, as the owners of factories amassed enormous wealth while the working class struggled to make ends meet.</p>
+    <p>Despite these challenges, the Industrial Revolution laid the foundation for the modern world, shaping economies and societies in ways that are still evident today. It sparked debates about the role of government in regulating industry and protecting workers, debates that continue to this day.</p>
+
+    <!-- Questions start here -->
+    <div class="question">
+        <h3>1. What was the primary shift during the Industrial Revolution?</h3>
+        <ul>
+            <li><input type="radio" name="q1" value="a"> From urban economies to agrarian ones</li>
+            <li><input type="radio" name="q1" value="b"> From agrarian economies to industrialized ones</li>
+            <li><input type="radio" name="q1" value="c"> From factory work to farming</li>
+            <li><input type="radio" name="q1" value="d"> From technological development to agricultural expansion</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>2. Which invention was crucial to the Industrial Revolution?</h3>
+        <ul>
+            <li><input type="radio" name="q2" value="a"> The telephone</li>
+            <li><input type="radio" name="q2" value="b"> The steam engine</li>
+            <li><input type="radio" name="q2" value="c"> The airplane</li>
+            <li><input type="radio" name="q2" value="d"> The computer</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>3. What was one of the significant effects of the Industrial Revolution on cities?</h3>
+        <ul>
+            <li><input type="radio" name="q3" value="a"> Decrease in population</li>
+            <li><input type="radio" name="q3" value="b"> Overcrowded cities and poor living conditions</li>
+            <li><input type="radio" name="q3" value="c"> Improvement of agricultural methods</li>
+            <li><input type="radio" name="q3" value="d"> The decline of trade</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>4. How did the Industrial Revolution affect global trade?</h3>
+        <ul>
+            <li><input type="radio" name="q4" value="a"> It stopped global trade.</li>
+            <li><input type="radio" name="q4" value="b"> It made global trade less efficient.</li>
+            <li><input type="radio" name="q4" value="c"> It facilitated global trade through the development of railways and steamships.</li>
+            <li><input type="radio" name="q4" value="d"> It decreased trade due to technological advancements.</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>5. What was one of the major negative consequences for factory workers during the Industrial Revolution?</h3>
+        <ul>
+            <li><input type="radio" name="q5" value="a"> Higher wages and better working hours</li>
+            <li><input type="radio" name="q5" value="b"> Dangerous working environments and long hours with little pay</li>
+            <li><input type="radio" name="q5" value="c"> Decrease in production of goods</li>
+            <li><input type="radio" name="q5" value="d"> Opportunity to amass wealth</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>6. What social class benefited the most from the Industrial Revolution?</h3>
+        <ul>
+            <li><input type="radio" name="q6" value="a"> Farmers</li>
+            <li><input type="radio" name="q6" value="b"> Factory workers</li>
+            <li><input type="radio" name="q6" value="c"> Factory owners</li>
+            <li><input type="radio" name="q6" value="d"> Government officials</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>7. In which century did the Industrial Revolution begin?</h3>
+        <ul>
+            <li><input type="radio" name="q7" value="a"> 16th century</li>
+            <li><input type="radio" name="q7" value="b"> 18th century</li>
+            <li><input type="radio" name="q7" value="c"> 19th century</li>
+            <li><input type="radio" name="q7" value="d"> 17th century</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>8. What was one of the major positive impacts of the Industrial Revolution?</h3>
+        <ul>
+            <li><input type="radio" name="q8" value="a"> Slower production of goods</li>
+            <li><input type="radio" name="q8" value="b"> Technological advancement and economic growth</li>
+            <li><input type="radio" name="q8" value="c"> Decrease in population growth</li>
+            <li><input type="radio" name="q8" value="d"> Decline in global trade</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>9. How did the Industrial Revolution affect class divisions?</h3>
+        <ul>
+            <li><input type="radio" name="q9" value="a"> It erased class divisions.</li>
+            <li><input type="radio" name="q9" value="b"> It led to the decline of the wealthy class.</li>
+            <li><input type="radio" name="q9" value="c"> It intensified class divisions, with factory owners becoming wealthier.</li>
+            <li><input type="radio" name="q9" value="d"> It resulted in equal wealth distribution among all classes.</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>10. What ongoing debate was sparked by the Industrial Revolution?</h3>
+        <ul>
+            <li><input type="radio" name="q10" value="a"> The role of government in regulating industry and protecting workers</li>
+            <li><input type="radio" name="q10" value="b"> The impact of agriculture on urbanization</li>
+            <li><input type="radio" name="q10" value="c"> The decline of global trade</li>
+            <li><input type="radio" name="q10" value="d"> The shift from agrarian to technological economies</li>
+        </ul>
+    </div>
+
+    <button onclick="checkAnswers()">Submit Answers</button>
+
+    <div class="result" id="result">
+        <h2>Your Results</h2>
+        <p id="score"></p>
+    </div>
+
+    <div class="correct-answers" id="correct-answers">
+        <h2>Correct Answers</h2>
+        <ul>
+            <li>1. From agrarian economies to industrialized ones</li>
+            <li>2. The steam engine</li>
+            <li>3. Overcrowded cities and poor living conditions</li>
+            <li>4. It facilitated global trade through the development of railways and steamships.</li>
+            <li>5. Dangerous working environments and long hours with little pay</li>
+            <li>6. Factory owners</li>
+            <li>7. 18th century</li>
+            <li>8. Technological advancement and economic growth</li>
+            <li>9. It intensified class divisions, with factory owners becoming wealthier.</li>
+            <li>10. The role of government in regulating industry and protecting workers</li>
+        </ul>
+    </div>
+
+    <script>
+        function checkAnswers() {
+            var score = 0;
+            var totalQuestions = 10;
+            var correctAnswers = {
+                "q1": "b",
+                "q2": "b",
+                "q3": "b",
+                "q4": "c",
+                "q5": "b",
+                "q6": "c",
+                "q7": "b",
+                "q8": "b",
+                "q9": "c",
+                "q10": "a"
+            };
+            
+            for (var question in correctAnswers) {
+                var selectedOption = document.querySelector('input[name="' + question + '"]:checked');
+                if (selectedOption && selectedOption.value === correctAnswers[question]) {
+                    score++;
+                }
+            }
+
+            var resultDiv = document.getElementById('result');
+            var correctAnswersDiv = document.getElementById('correct-answers');
+            var scoreElement = document.getElementById('score');
+            
+            scoreElement.textContent = 'You got ' + score + ' out of ' + totalQuestions + ' correct.';
+            resultDiv.style.display = 'block';
+            correctAnswersDiv.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
